@@ -2,6 +2,8 @@
 
 > A production-inspired collaborative filtering engine built from scratch in Python — featuring both **User-Based** and **Item-Based CF**, real MovieLens data, an interactive Streamlit dashboard, and a full evaluation suite.
 
+🚀 **[Try it Live!](https://rohitraj1106-netflix-recommendation-system-.streamlit.app)** 
+
 ---
 
 ## Table of Contents
