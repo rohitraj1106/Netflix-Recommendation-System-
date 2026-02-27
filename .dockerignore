@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+*.md
+output.txt
+data/ml-latest-small/
+tests/
+.vscode/
+.idea/
