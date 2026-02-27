@@ -190,14 +190,48 @@ def generate_movielens_data(
 # ---------------------------------------------------------------------------
 
 _MODERN_MOVIES: list[dict] = [
-    {"movie_id": 200_001, "title": "Dune: Part Two (2024)", "genres": "Sci-Fi|Action"},
-    {"movie_id": 200_002, "title": "Oppenheimer (2023)", "genres": "Drama|History"},
-    {"movie_id": 200_003, "title": "Barbie (2023)", "genres": "Comedy|Fantasy"},
-    {"movie_id": 200_004, "title": "Spider-Man: Across the Spider-Verse (2023)", "genres": "Animation|Action"},
-    {"movie_id": 200_005, "title": "The Batman (2022)", "genres": "Action|Crime"},
-    {"movie_id": 200_006, "title": "Everything Everywhere All At Once (2022)", "genres": "Sci-Fi|Adventure"},
-    {"movie_id": 200_007, "title": "Top Gun: Maverick (2022)", "genres": "Action|Drama"},
-    {"movie_id": 200_008, "title": "Avatar: The Way of Water (2022)", "genres": "Sci-Fi|Action"},
+    # --- 2026 ---
+    {"movie_id": 200_001, "title": "The Odyssey (2026)", "genres": "Adventure|Drama"},
+    {"movie_id": 200_002, "title": "Jurassic World: Rebirth (2026)", "genres": "Action|Sci-Fi|Adventure"},
+    {"movie_id": 200_003, "title": "Zootopia 2 (2026)", "genres": "Animation|Comedy|Adventure"},
+    # --- 2025 ---
+    {"movie_id": 200_004, "title": "Mission: Impossible - The Final Reckoning (2025)", "genres": "Action|Thriller"},
+    {"movie_id": 200_005, "title": "Captain America: Brave New World (2025)", "genres": "Action|Sci-Fi"},
+    {"movie_id": 200_006, "title": "Thunderbolts* (2025)", "genres": "Action|Sci-Fi"},
+    {"movie_id": 200_007, "title": "Superman (2025)", "genres": "Action|Sci-Fi|Adventure"},
+    {"movie_id": 200_008, "title": "Sinners (2025)", "genres": "Horror|Thriller"},
+    {"movie_id": 200_009, "title": "Snow White (2025)", "genres": "Fantasy|Adventure|Musical"},
+    # --- 2024 ---
+    {"movie_id": 200_010, "title": "Dune: Part Two (2024)", "genres": "Sci-Fi|Action|Adventure"},
+    {"movie_id": 200_011, "title": "Inside Out 2 (2024)", "genres": "Animation|Comedy|Drama"},
+    {"movie_id": 200_012, "title": "Deadpool & Wolverine (2024)", "genres": "Action|Comedy|Sci-Fi"},
+    {"movie_id": 200_013, "title": "Gladiator II (2024)", "genres": "Action|Drama|History"},
+    {"movie_id": 200_014, "title": "Wicked (2024)", "genres": "Fantasy|Musical|Drama"},
+    {"movie_id": 200_015, "title": "Moana 2 (2024)", "genres": "Animation|Adventure|Comedy"},
+    {"movie_id": 200_016, "title": "Alien: Romulus (2024)", "genres": "Horror|Sci-Fi|Thriller"},
+    {"movie_id": 200_017, "title": "Furiosa: A Mad Max Saga (2024)", "genres": "Action|Sci-Fi|Adventure"},
+    {"movie_id": 200_018, "title": "The Wild Robot (2024)", "genres": "Animation|Sci-Fi|Drama"},
+    # --- 2023 ---
+    {"movie_id": 200_019, "title": "Oppenheimer (2023)", "genres": "Drama|History|Thriller"},
+    {"movie_id": 200_020, "title": "Barbie (2023)", "genres": "Comedy|Fantasy|Adventure"},
+    {"movie_id": 200_021, "title": "Spider-Man: Across the Spider-Verse (2023)", "genres": "Animation|Action|Adventure"},
+    {"movie_id": 200_022, "title": "Guardians of the Galaxy Vol. 3 (2023)", "genres": "Action|Sci-Fi|Comedy"},
+    {"movie_id": 200_023, "title": "Killers of the Flower Moon (2023)", "genres": "Crime|Drama|History"},
+    {"movie_id": 200_024, "title": "John Wick: Chapter 4 (2023)", "genres": "Action|Crime|Thriller"},
+    {"movie_id": 200_025, "title": "The Super Mario Bros. Movie (2023)", "genres": "Animation|Adventure|Comedy"},
+    # --- 2022 ---
+    {"movie_id": 200_026, "title": "Top Gun: Maverick (2022)", "genres": "Action|Drama"},
+    {"movie_id": 200_027, "title": "Everything Everywhere All At Once (2022)", "genres": "Sci-Fi|Adventure|Comedy"},
+    {"movie_id": 200_028, "title": "The Batman (2022)", "genres": "Action|Crime|Drama"},
+    {"movie_id": 200_029, "title": "Avatar: The Way of Water (2022)", "genres": "Sci-Fi|Action|Adventure"},
+    {"movie_id": 200_030, "title": "Glass Onion: A Knives Out Mystery (2022)", "genres": "Comedy|Crime|Thriller"},
+    # --- 2021 ---
+    {"movie_id": 200_031, "title": "Spider-Man: No Way Home (2021)", "genres": "Action|Adventure|Sci-Fi"},
+    {"movie_id": 200_032, "title": "Dune (2021)", "genres": "Sci-Fi|Action|Adventure"},
+    {"movie_id": 200_033, "title": "No Time to Die (2021)", "genres": "Action|Thriller"},
+    # --- 2020 ---
+    {"movie_id": 200_034, "title": "Tenet (2020)", "genres": "Action|Sci-Fi|Thriller"},
+    {"movie_id": 200_035, "title": "Soul (2020)", "genres": "Animation|Comedy|Drama"},
 ]
 
 

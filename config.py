@@ -49,10 +49,10 @@ RATING_PROBABILITIES: list[float] = [0.05, 0.10, 0.25, 0.35, 0.25]
 # ---------------------------------------------------------------------------
 # Modern Movie Injection
 # ---------------------------------------------------------------------------
-MODERN_MOVIE_USER_FRACTION: float = 0.15  # % of users who rate new movies
-MODERN_MOVIE_WATCH_PROBABILITY: float = 0.60
+MODERN_MOVIE_USER_FRACTION: float = 0.40  # % of users who rate new movies
+MODERN_MOVIE_WATCH_PROBABILITY: float = 0.75
 MODERN_MOVIE_RATING_VALUES: list[float] = [3.5, 4.0, 4.5, 5.0]
-MODERN_MOVIE_RATING_PROBS: list[float] = [0.1, 0.2, 0.3, 0.4]
+MODERN_MOVIE_RATING_PROBS: list[float] = [0.05, 0.15, 0.35, 0.45]
 
 # ---------------------------------------------------------------------------
 # Streamlit Settings
